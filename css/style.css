@@ -13,8 +13,7 @@ a{text-decoration: none;}
 ul{list-style: none;}
 img{max-width: 100%;}
 
-/* header */
-
+/* HEADER */
 .header{
     width: 100%;
     float: left;
@@ -40,13 +39,13 @@ img{max-width: 100%;}
     background-color: var(--background)
 }
 
-/* menu */
+/* MENU */
 .menu{
     display: none;
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     top: 0;
     left: 0;
 }
@@ -66,9 +65,7 @@ img{max-width: 100%;}
     text-align: center;
 }
 
-.menu li{
-    padding:2%;
-}
+.menu li{padding:2%;}
 
 .menu li a {
     font-size:1.7em;
@@ -78,4 +75,98 @@ img{max-width: 100%;}
 
 .menu li a:hover{
     border: 1px solid var(--color-orange)
+}
+
+/* BANNER */
+.banner{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background: url(../img/bg.jpg) no-repeat fixed;
+}
+
+.title{width: 100%;}
+
+.title h2{
+    font-size: 2.5em;
+    color:var(--color-white);
+    font-weight: 700;
+}
+
+.title h3{
+    font-size: 1.2em;
+    color:var(--color-white);
+}
+
+.buttons{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.buttons i {float: right;}
+
+.align{margin-top: 3%;}
+
+.btn-register{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    color: var(--background);
+}
+
+.btn-about{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: var(--background);
+    color: var(--color-white);
+}
+
+/* SERVICES */
+.services{
+    margin-top:3%;
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.service{
+    width: 100%;
+    background-color: var(--color-red);
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.service img{border-radius: 7px 7px 0 0;}
+
+.inner{padding: 7%;}
+
+.inner a{
+    font-size: 1.29em;
+    color: var(--background);
+    font-weight: 800;
+}
+
+.inner h4{
+    font-size: 1.2em;
+    color: var(--color-white);
+    margin-top: 2%;
+    font-weight:590;
+}
+
+.inner p{
+    margin-top:5%;
+    color: var(--color-white);
+    line-height: 1.5em;
 }
