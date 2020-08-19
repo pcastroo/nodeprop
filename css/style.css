@@ -135,7 +135,7 @@ img{max-width: 100%;}
 
 /* SERVICES */
 .services{
-    margin-top:3%;
+    margin-top: 3%;
     width: 100%;
     float: left;
     padding: 3% 4%;
@@ -163,11 +163,11 @@ img{max-width: 100%;}
     font-size: 1.2em;
     color: var(--color-white);
     margin-top: 2%;
-    font-weight:590;
+    font-weight: 590;
 }
 
 .inner p{
-    margin-top:5%;
+    margin-top: 5%;
     color: var(--color-white);
     line-height: 1.5em;
 }
@@ -207,4 +207,33 @@ img{max-width: 100%;}
     border-radius: 10px;
     padding: 2%;
     width: 71.5%
+}
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    background-color: var(--background);
+    margin-bottom: 3%;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: var(--color-red);
+    opacity: 0.6;
+    margin-right: 3%;
+}
+
+.social-icons a:hover{
+    opacity: 1;
+}
+
+.social-icons a:last-child{
+    margin-right: 0;
+}
+
+.copyright{
+    margin-top:2%;
 }
