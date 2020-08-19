@@ -1,6 +1,7 @@
 /*  root  */
 :root{
     --background:#282a36;
+    --bg-menu:rgba(0, 0, 0, 0.8);
     --color-red:#ce2e3c;
     --color-white:#f8f8f2;
     --color-orange:#ffb86c;
@@ -13,13 +14,15 @@ a{text-decoration: none;}
 ul{list-style: none;}
 img{max-width: 100%;}
 
-/* HEADER */
-.header{
+/*====CONTAINER====*/
+.container{
     width: 100%;
     float: left;
     padding: 3% 4%;
+    text-align: center;
 }
 
+/*====HEADER====*/
 .logo{
     width: 56px;
     height: 56px;
@@ -39,13 +42,13 @@ img{max-width: 100%;}
     background-color: var(--background)
 }
 
-/* MENU */
+/*====MENU====*/
 .menu{
     display: none;
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--bg-menu);
     top: 0;
     left: 0;
 }
@@ -73,18 +76,10 @@ img{max-width: 100%;}
     padding: 1.5% 3%;
 }
 
-.menu li a:hover{
-    border: 1px solid var(--color-orange)
-}
+.menu li a:hover{color: var(--color-orange)}
 
-/* BANNER */
-.banner{
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 3% 4%;
-    background: url(../img/bg.jpg) no-repeat fixed;
-}
+/*====BANNER====*/
+.banner{background: url(../img/bg.jpg) no-repeat fixed;}
 
 .title{width: 100%;}
 
@@ -108,38 +103,28 @@ img{max-width: 100%;}
 
 .buttons i {float: right;}
 
-
-.btn-register{
+.btn{
     width: 100%;
     font-size: 1.5em;
     text-align: left;
     cursor: pointer;
     padding: 5%;
     border-radius: 10px;
+}
+
+.btn-register{
     background-color: var(--color-white);
     color: var(--background);
 }
 
 .btn-about{
-    width: 100%;
     margin-top: 3%;
-    margin-bottom: 3%;
-    font-size: 1.5em;
-    text-align: left;
-    cursor: pointer;
-    padding: 5%;
-    border-radius: 10px;
     background-color: var(--background);
     color: var(--color-white);
 }
 
-/* SERVICES */
-.services{
-    margin-top: 3%;
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
-}
+/*====SERVICES====*/
+.services{margin-top: 3%;}
 
 .service{
     width: 100%;
@@ -172,14 +157,8 @@ img{max-width: 100%;}
     line-height: 1.5em;
 }
 
-/*NEWSLETTER*/
-.newsletter{
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 3% 4%;
-    background-color: var(--color-white);
-}
+/*====NEWSLETTER====*/
+.newsletter{background-color: var(--color-white);}
 
 .newsletter h2{
     font-size: 1.5em;
@@ -187,13 +166,9 @@ img{max-width: 100%;}
     font-weight: 700;
 }
 
-.newsletter h3{
-    color: var(--background);
-}
+.newsletter h3{color: var(--background);}
 
-.newsletter form{
-    margin: 2% 0 4% 0;
-}
+.newsletter form{margin: 2% 0 4% 0;}
 
 .newsletter button {
     border-radius: 10px;
@@ -209,12 +184,8 @@ img{max-width: 100%;}
     width: 71.5%
 }
 
-/*FOOTER*/
+/*====FOOTER====*/
 .footer{
-    width: 100%;
-    float: left;
-    padding: 3% 4%;
-    text-align: center;
     background-color: var(--background);
     margin-bottom: 3%;
 }
@@ -226,14 +197,8 @@ img{max-width: 100%;}
     margin-right: 3%;
 }
 
-.social-icons a:hover{
-    opacity: 1;
-}
+.social-icons a:hover{opacity: 1;}
 
-.social-icons a:last-child{
-    margin-right: 0;
-}
+.social-icons a:last-child{margin-right: 0;}
 
-.copyright{
-    margin-top:2%;
-}
+.copyright{margin-top:2%;}
