@@ -104,9 +104,10 @@ img{max-width: 100%;}
     margin-top: 2%;
 }
 
+.align{margin-top: 2%;}
+
 .buttons i {float: right;}
 
-.align{margin-top: 3%;}
 
 .btn-register{
     width: 100%;
@@ -169,4 +170,41 @@ img{max-width: 100%;}
     margin-top:5%;
     color: var(--color-white);
     line-height: 1.5em;
+}
+
+/*NEWSLETTER*/
+.newsletter{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background-color: var(--color-white);
+}
+
+.newsletter h2{
+    font-size: 1.5em;
+    color: var(--background);
+    font-weight: 700;
+}
+
+.newsletter h3{
+    color: var(--background);
+}
+
+.newsletter form{
+    margin: 2% 0 4% 0;
+}
+
+.newsletter button {
+    border-radius: 10px;
+    padding: 2%;
+    background-color: var(--color-red);
+    cursor: pointer;
+}
+
+.newsletter input{
+    border: 1px solid var(--background);
+    border-radius: 10px;
+    padding: 2%;
+    width: 71.5%
 }
