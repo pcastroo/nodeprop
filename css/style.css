@@ -196,7 +196,7 @@ img{max-width: 100%;}
 
 .social-icons a:hover{opacity: 1;}
 .social-icons a:last-child{margin-right: 0;}
-.copyright{margin-top:2%;}
+.copyright{margin-top:2%; color: var(--color-white);}
 
 /*=======MOBILE FIRST=======*/
 /*SMALL DEVICES - SMARTPHONES*/
